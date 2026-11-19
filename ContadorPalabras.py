@@ -15,11 +15,14 @@ class ContadorPalabras(QtWidgets.QMainWindow):
         textoSeparado=texto.split()
         print(textoSeparado)
         #Contar las palabras
-        
+        cantidadPalabras=len(textoSeparado)
+        self.tvPalabras.setText(f"Palabras:{cantidadPalabras}")
         #Contar los caracteres
-        print("Se ha presionado el boton")
-        
-        
+        totalCaracteres= 0 
+        for palabra in textoSeparado:
+            totalCaracteres += len(palabra)
+        totalCaracteres
+        self.tvCaracteres.setText(f"Caracteres {totalCaracteres}")
          
         
         

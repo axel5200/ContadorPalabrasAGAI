@@ -7,7 +7,7 @@
     <x>0</x>
     <y>0</y>
     <width>800</width>
-    <height>501</height>
+    <height>664</height>
    </rect>
   </property>
   <property name="windowTitle">
@@ -38,10 +38,10 @@
    <widget class="QLineEdit" name="edtCaracteres">
     <property name="geometry">
      <rect>
-      <x>150</x>
+      <x>170</x>
       <y>130</y>
-      <width>511</width>
-      <height>211</height>
+      <width>581</width>
+      <height>351</height>
      </rect>
     </property>
     <property name="font">
@@ -65,8 +65,8 @@ border-color: rgb(0, 0, 0);</string>
    <widget class="QLabel" name="tvPalabras">
     <property name="geometry">
      <rect>
-      <x>30</x>
-      <y>380</y>
+      <x>40</x>
+      <y>530</y>
       <width>201</width>
       <height>41</height>
      </rect>
@@ -77,15 +77,15 @@ border-color: rgb(0, 0, 0);</string>
      </font>
     </property>
     <property name="text">
-     <string>Palabras:</string>
+     <string>Palabras: 0</string>
     </property>
    </widget>
    <widget class="QLabel" name="tvCaracteres">
     <property name="geometry">
      <rect>
-      <x>260</x>
-      <y>380</y>
-      <width>201</width>
+      <x>270</x>
+      <y>530</y>
+      <width>211</width>
       <height>41</height>
      </rect>
     </property>
@@ -95,14 +95,14 @@ border-color: rgb(0, 0, 0);</string>
      </font>
     </property>
     <property name="text">
-     <string>Caracteres:</string>
+     <string>Caracteres: 0</string>
     </property>
    </widget>
    <widget class="QPushButton" name="btnContar">
     <property name="geometry">
      <rect>
-      <x>520</x>
-      <y>370</y>
+      <x>550</x>
+      <y>520</y>
       <width>251</width>
       <height>61</height>
      </rect>
@@ -123,9 +123,9 @@ border-color: rgb(0, 0, 0);</string>
     <property name="geometry">
      <rect>
       <x>30</x>
-      <y>160</y>
-      <width>111</width>
-      <height>161</height>
+      <y>200</y>
+      <width>131</width>
+      <height>211</height>
      </rect>
     </property>
     <property name="text">
